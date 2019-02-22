@@ -29,6 +29,21 @@ public class Variables {
 		
 		String name = "Rodrigo";
 		System.out.println(name);
+		
+		String output = a + " - " + b + " - " +
+						c + " - " + d + " - " +
+						e + " - " + f + " - " +
+						g + " - " + h + " - " +
+						name;
+		
+		System.out.println(output);
+
+		//mesma saida que a linha 39!
+//		System.out.println(a + " - " + b + " - " +
+//						c + " - " + d + " - " +
+//						e + " - " + f + " - " +
+//						g + " - " + h + " - " +
+//						name);
 	}
 	
 }
